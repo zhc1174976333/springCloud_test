@@ -1,0 +1,13 @@
+server:
+  port: 8881
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    ## \u901A\u8FC7registerWithEureka\u548CfetchRegistry\u8BBE\u7F6E\u4E3Afalse\u8868\u660E\u662Feureka server
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
