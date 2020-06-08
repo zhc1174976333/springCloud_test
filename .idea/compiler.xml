@@ -11,6 +11,7 @@
         <module name="eurekaTest" />
         <module name="service-feign" />
         <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
